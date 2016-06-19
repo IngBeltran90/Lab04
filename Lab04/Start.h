@@ -12,6 +12,8 @@
 
 @interface Start : UIViewController <UIPageViewControllerDelegate, UIPageViewControllerDataSource>
 
+@property (strong, nonatomic) UIPageViewController *pageViewController;
+
 
 @end
 

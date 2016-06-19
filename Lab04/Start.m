@@ -29,7 +29,7 @@
 - (void)initController {
     maIntroTitles   = [[NSMutableArray alloc] initWithObjects: @"Dragon Ball Super", @"Conoce los nuevos personajes", @"Directamente desde tu iPhone", nil];
     
-    maIntroImgs     = [[NSMutableArray alloc] initWithObjects: @"summer.png", @"avengers.png", @"iphone.png", nil];
+    //maIntroImgs     = [[NSMutableArray alloc] initWithObjects: @"summer.png", @"avengers.png", @"iphone.png", nil];
     
     [self createPageViews];
 }

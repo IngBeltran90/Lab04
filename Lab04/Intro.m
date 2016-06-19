@@ -13,7 +13,9 @@
 @end
 
 @implementation Intro
-
+/**********************************************************************************************/
+#pragma mark - Initialization methods
+/**********************************************************************************************/
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
@@ -23,6 +25,17 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+//-------------------------------------------------------------------------------
+-(void)viewWillAppear:(BOOL)animated {
+    self.lblIntro.text  = maIntroTitles[self.iPageIndex];
+    //self.imgIntro.image = [UIImage imageNamed:maIntroImgs[self.iPageIndex]];
+    
+    //if (self.iPageIndex == 2){
+    //    self.btnIntro.hidden = NO;
+    //}
+}
+
 
 /*
 #pragma mark - Navigation
