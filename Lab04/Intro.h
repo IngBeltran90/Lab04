@@ -18,7 +18,6 @@
 @property (strong, nonatomic) IBOutlet UIImageView *imgIntro;
 @property (strong, nonatomic) IBOutlet UIButton *btnIntro;
 
-
 //Actions
 - (IBAction)btnIntroPressed:(id)sender;
 

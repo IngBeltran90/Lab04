@@ -27,7 +27,7 @@
 }
 //-------------------------------------------------------------------------------
 - (void)initController {
-    maIntroTitles   = [[NSMutableArray alloc] initWithObjects: @"Dragon Ball Super", @"Conoce los nuevos personajes", @"Da Cli", nil];
+    maIntroTitles   = [[NSMutableArray alloc] initWithObjects: @"Dragon Ball Super", @"Conoce los nuevos personajes", @"Comienza Ya!", nil];
     
     maIntroImgs     = [[NSMutableArray alloc] initWithObjects: @"DragonBallSuper.jpg", @"GokuAndVegetaGod.png", @"GokuSSG.jpg", nil];
     

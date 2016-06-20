@@ -49,7 +49,9 @@
 /**********************************************************************************************/
 #pragma mark - Actions methods
 /**********************************************************************************************/
-- (IBAction)btnIntro:(id)sender {
+
+
+- (IBAction)btnIntroPressed:(id)sender {
     Home *vc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"Home"];
     [self presentViewController:vc animated:YES completion:nil];
 }
