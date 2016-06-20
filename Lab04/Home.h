@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CellWarriors.h"
 
 @interface Home : UIViewController
+@property (strong, nonatomic) IBOutlet UITableView *tblWarriors;
 
 @end
