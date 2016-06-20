@@ -29,11 +29,11 @@
 //-------------------------------------------------------------------------------
 -(void)viewWillAppear:(BOOL)animated {
     self.lblIntro.text  = maIntroTitles[self.iPageIndex];
-    //self.imgIntro.image = [UIImage imageNamed:maIntroImgs[self.iPageIndex]];
+    self.imgIntro.image = [UIImage imageNamed:maIntroImgs[self.iPageIndex]];
     
-    //if (self.iPageIndex == 2){
-    //    self.btnIntro.hidden = NO;
-    //}
+    if (self.iPageIndex == 2){
+        self.btnIntro.hidden = NO;
+    }
 }
 
 
@@ -46,5 +46,11 @@
     // Pass the selected object to the new view controller.
 }
 */
-
+/**********************************************************************************************/
+#pragma mark - Actions methods
+/**********************************************************************************************/
+- (IBAction)btnIntro:(id)sender {
+    Home *vc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"Home"];
+    [self presentViewController:vc animated:YES completion:nil];
+}
 @end

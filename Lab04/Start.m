@@ -27,9 +27,9 @@
 }
 //-------------------------------------------------------------------------------
 - (void)initController {
-    maIntroTitles   = [[NSMutableArray alloc] initWithObjects: @"Dragon Ball Super", @"Conoce los nuevos personajes", @"Directamente desde tu iPhone", nil];
+    maIntroTitles   = [[NSMutableArray alloc] initWithObjects: @"Dragon Ball Super", @"Conoce los nuevos personajes", @"Da Cli", nil];
     
-    //maIntroImgs     = [[NSMutableArray alloc] initWithObjects: @"summer.png", @"avengers.png", @"iphone.png", nil];
+    maIntroImgs     = [[NSMutableArray alloc] initWithObjects: @"DragonBallSuper.jpg", @"GokuAndVegetaGod.png", @"GokuSSG.jpg", nil];
     
     [self createPageViews];
 }

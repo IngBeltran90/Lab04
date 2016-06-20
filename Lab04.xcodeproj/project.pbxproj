@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		8E0B1A851D1736DC00D39CC5 /* Intro.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0B1A841D1736DC00D39CC5 /* Intro.m */; };
 		8E0B1A881D1739D600D39CC5 /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0B1A871D1739D600D39CC5 /* Declarations.m */; };
+		8E0B1A8D1D175F8500D39CC5 /* DragonBallSuper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E0B1A8A1D175F8500D39CC5 /* DragonBallSuper.jpg */; };
+		8E0B1A8E1D175F8500D39CC5 /* GokuAndVegetaGod.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E0B1A8B1D175F8500D39CC5 /* GokuAndVegetaGod.png */; };
+		8E0B1A8F1D175F8500D39CC5 /* GokuSSG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E0B1A8C1D175F8500D39CC5 /* GokuSSG.jpg */; };
+		8E0B1A921D176D0000D39CC5 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0B1A911D176D0000D39CC5 /* Home.m */; };
 		8ECEE3241D1724EC0036B59B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECEE3231D1724EC0036B59B /* main.m */; };
 		8ECEE3271D1724EC0036B59B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECEE3261D1724EC0036B59B /* AppDelegate.m */; };
 		8ECEE32A1D1724EC0036B59B /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECEE3291D1724EC0036B59B /* Start.m */; };
@@ -23,6 +27,11 @@
 		8E0B1A841D1736DC00D39CC5 /* Intro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Intro.m; sourceTree = "<group>"; };
 		8E0B1A861D1739D600D39CC5 /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
 		8E0B1A871D1739D600D39CC5 /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
+		8E0B1A8A1D175F8500D39CC5 /* DragonBallSuper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DragonBallSuper.jpg; sourceTree = "<group>"; };
+		8E0B1A8B1D175F8500D39CC5 /* GokuAndVegetaGod.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GokuAndVegetaGod.png; sourceTree = "<group>"; };
+		8E0B1A8C1D175F8500D39CC5 /* GokuSSG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GokuSSG.jpg; sourceTree = "<group>"; };
+		8E0B1A901D176D0000D39CC5 /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		8E0B1A911D176D0000D39CC5 /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 		8ECEE31F1D1724EC0036B59B /* Lab04.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab04.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ECEE3231D1724EC0036B59B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8ECEE3251D1724EC0036B59B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,6 +56,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E0B1A891D175F8500D39CC5 /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				8E0B1A8A1D175F8500D39CC5 /* DragonBallSuper.jpg */,
+				8E0B1A8B1D175F8500D39CC5 /* GokuAndVegetaGod.png */,
+				8E0B1A8C1D175F8500D39CC5 /* GokuSSG.jpg */,
+			);
+			path = imgs;
+			sourceTree = "<group>";
+		};
 		8ECEE3161D1724EC0036B59B = {
 			isa = PBXGroup;
 			children = (
@@ -66,8 +85,9 @@
 		8ECEE3211D1724EC0036B59B /* Lab04 */ = {
 			isa = PBXGroup;
 			children = (
-				8ECEE33D1D1726810036B59B /* Controllers */,
 				8ECEE33C1D1726780036B59B /* Main */,
+				8ECEE33D1D1726810036B59B /* Controllers */,
+				8E0B1A891D175F8500D39CC5 /* imgs */,
 				8ECEE32B1D1724EC0036B59B /* Main.storyboard */,
 				8ECEE3311D1724EC0036B59B /* Assets.xcassets */,
 				8ECEE3331D1724EC0036B59B /* LaunchScreen.storyboard */,
@@ -104,6 +124,8 @@
 				8ECEE3291D1724EC0036B59B /* Start.m */,
 				8E0B1A831D1736DC00D39CC5 /* Intro.h */,
 				8E0B1A841D1736DC00D39CC5 /* Intro.m */,
+				8E0B1A901D176D0000D39CC5 /* Home.h */,
+				8E0B1A911D176D0000D39CC5 /* Home.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -165,9 +187,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E0B1A8E1D175F8500D39CC5 /* GokuAndVegetaGod.png in Resources */,
+				8E0B1A8F1D175F8500D39CC5 /* GokuSSG.jpg in Resources */,
 				8ECEE3351D1724EC0036B59B /* LaunchScreen.storyboard in Resources */,
 				8ECEE3321D1724EC0036B59B /* Assets.xcassets in Resources */,
 				8ECEE32D1D1724EC0036B59B /* Main.storyboard in Resources */,
+				8E0B1A8D1D175F8500D39CC5 /* DragonBallSuper.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +208,7 @@
 				8E0B1A881D1739D600D39CC5 /* Declarations.m in Sources */,
 				8ECEE3301D1724EC0036B59B /* Lab04.xcdatamodeld in Sources */,
 				8ECEE3271D1724EC0036B59B /* AppDelegate.m in Sources */,
+				8E0B1A921D176D0000D39CC5 /* Home.m in Sources */,
 				8ECEE3241D1724EC0036B59B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
