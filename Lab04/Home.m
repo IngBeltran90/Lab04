@@ -63,6 +63,12 @@
 }
 //-------------------------------------------------------------------------------
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    //-------------------------------------------------------------------------------
+    self.lblWarriorNames.text  = self.WarriorNames[indexPath.row];
+    
+    if (self.WarriorNames[indexPath.row] != 0){
+        self.lblWarriorNames.hidden = NO;
+    }
     
 }
 

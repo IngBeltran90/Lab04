@@ -89,10 +89,18 @@
                                     <outlet property="delegate" destination="PZE-Cc-aLS" id="NwO-av-FJv"/>
                                 </connections>
                             </tableView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" id="bbr-9S-gbK" userLabel="lblWarriorName">
+                                <rect key="frame" x="60" y="29" width="200" height="42"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="22"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
+                        <outlet property="lblWarriorNames" destination="bbr-9S-gbK" id="d1t-cT-56p"/>
                         <outlet property="tblWarriors" destination="WKs-lL-KCr" id="BIg-Lb-JF5"/>
                     </connections>
                 </viewController>
